@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21b8e7</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorGrey">#131313</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlue">#3741ff</color>
+    <color name="colorBlueClick">#803741FF</color>
+    <color name="colorError">#ff0b00</color>
+    <color name="colorGreen">#239C1C</color>
+    <color name="colorCyan">#00E5FF</color>
+    <color name="colorWhitetwo">#ffffff</color>
+    <color name="colorGreytwo">#1B1B1B</color>
+    <color name="colorPurple">#D500F9</color>
+
+
+    <color name="slider_background">#4227395a</color>
+    <array name="gradient">
+        <item>#13ff00</item>
+        <item>#4bff00</item>
+        <item>#c6ff00</item>
+        <item>#fdff00</item>
+        <item>#ffa700</item>
+        <item>#ff0b00</item>
+        <item>#ff0b00</item>
+    </array>
+
+</resources>

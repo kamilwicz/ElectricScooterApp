@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f000"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    tools:context=".TestTwoActivity">
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:faceColor="@color/colorGreytwo"
+        app:labelTextSize="65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        gauge:initialValue="7"
+        gauge:maxValue="30"
+        gauge:minValue="0"
+        gauge:needleColor="@color/colorError"
+        gauge:scaleColor="@color/colorCyan"
+        gauge:totalNicks="90"
+        gauge:valuePerNick="0.5" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gauge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gauge"
+        app:srcCompat="@drawable/obrecz" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text=" 15 "
+        android:textColor="#fff"
+        android:textSize="80dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/gauge"
+        app:layout_constraintEnd_toEndOf="@+id/gauge"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gauge"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <!--<com.marcinmoskala.arcseekbar.ArcSeekBar-->
+        <!--android:id="@+id/gradientSeekBar"-->
+        <!--android:layout_width="425dp"-->
+        <!--android:layout_height="425dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:padding="0.1dp"-->
+        <!--android:visibility="visible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.52"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.498"-->
+        <!--app:maxProgress="30"-->
+        <!--app:progress="35"-->
+        <!--app:progressBackgroundColor="#F7000000"-->
+        <!--app:progressBackgroundWidth="0dp"-->
+        <!--app:progressColor="#1AFF0000"-->
+        <!--app:progressWidth="92dp"-->
+        <!--app:roundEdges="true"-->
+        <!--app:thumb="@color/colorBlue" />-->
+
+
+
+</android.support.constraint.ConstraintLayout>
